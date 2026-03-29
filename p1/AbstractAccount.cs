@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace p1
 {
-        enum Status{
-            Active,
-            Frozen
-        }
+     enum Status{
+         Active,
+         Frozen
+     }
     internal abstract class AbstractAccount
     {
-
-
         public Guid Id { get; protected set; }
         public string Owner { get; protected set; }
         protected decimal _balance;
-        public Status Status { get; protected set; }
+        public Status Status { get; set; }
 
         public AbstractAccount (string owner, Status Status)
         {

@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="AbstractAccount.cs" />
     <Compile Include="AccountExceptions.cs" />
+    <Compile Include="Bank.cs" />
     <Compile Include="BankAccount.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="InvestmentAccount.cs" />
     <Compile Include="PremiumAccount.cs" />
     <Compile Include="Program.cs" />

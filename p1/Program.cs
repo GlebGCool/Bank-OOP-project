@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static p1.Client;
 
 namespace p1
 {
@@ -12,6 +13,71 @@ namespace p1
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            int choice = 0;
+            Console.WriteLine("Тесты чего делаем?(1 - всех типов счетов / 2 -  управляющего класса банка и клиентов)");
+            while (choice != 1 && choice != 2)
+                int.TryParse(Console.ReadLine(), out choice);
+
+            if (choice == 1)
+            {
+                TestAllAccounts();
+            }
+
+            else
+            {
+                var bank = new Bank();
+
+                var ivan = new Client("Ivanov I.I.", "12345", ClientStatus.Active, 25, "ivan@mail.com");
+                bank.add_client(ivan);
+                bank.authenticateClient(ivan, "12345");
+
+                bank.open_account(ivan, new SavingAccount(ivan.FIO, Status.Active, Currency.USD, 100, 5));
+                bank.open_account(ivan, new PremiumAccount(ivan.FIO, Status.Active, Currency.USD, -100, 150));
+                bank.open_account(ivan, new InvestmentAccount(ivan.FIO, Status.Active, Currency.USD));
+
+                bank.close_account(ivan);
+
+                bank.freeze_account(ivan);
+
+                bank.searchAccounts(ivan);
+
+                Console.WriteLine("\n\n--- ТЕСТ: Блокировка за неверный пароль ---");
+                var hater = new Client("Hacker Jack", "wrong_pass", ClientStatus.Active, 30, "jack@hack.com");
+                bank.add_client(hater);
+
+                // Трижды пытаемся войти с плохим паролем
+                bank.authenticateClient(hater, "1111");
+                bank.authenticateClient(hater, "2222");
+                bank.authenticateClient(hater, "3333");
+
+                // Пробуем совершить операцию после блокировки
+                bank.BankWithdraw(hater);
+
+                Console.WriteLine("\n\n--- ТЕСТ: Несовершеннолетний клиент ---");
+                try
+                {
+                    var kid = new Client("Baby Shark", "999", ClientStatus.Active, 10, "kid@toy.com");
+                    bank.add_client(kid);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Успешная проверка возраста: {ex.Message}");
+                }
+
+                Console.WriteLine("\n\n--- ТЕСТ: Подозрительная операция (>1000) ---");
+                bank.BankWithdraw(ivan);
+
+                Console.WriteLine("\n\n--- ТЕСТ: Замороженный счет ---");
+                bank.authenticateClient(ivan, "12345");
+                bank.freeze_account(ivan); // Замораживаем один из счетов
+
+                // Пробуем снять деньги с замороженного счета
+                bank.BankWithdraw(ivan);
+            }
+        }
+
+        static void TestAllAccounts()
+        {
             #region BankAccountTest
             Console.WriteLine("\t\t~~~BankAccount Tests~~~");
             BankAccount account = new BankAccount("Pupa", Status.Active, Currency.RUB);
@@ -33,7 +99,7 @@ namespace p1
 
             // Попытка снаятия средств с замороженного аккаунта (прокидывается InvalidAccountOperationException)
             try { frozenAccount.Withdraw(1488); }
-            catch(Exception e) { Console.WriteLine($"Ошибка: {e.Message}"); }
+            catch (Exception e) { Console.WriteLine($"Ошибка: {e.Message}"); }
             Console.WriteLine("\n\n\n");
             #endregion
 
@@ -78,7 +144,8 @@ namespace p1
             catch (Exception e) { Console.WriteLine($"Ошибка: {e.Message}"); }
             Console.WriteLine("\n\n\n");
             #endregion
-
         }
+
     }
+
 }

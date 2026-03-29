@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|D:\\oop project\\Bank-OOP-project\\p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\investmentaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\investmentaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\premiumaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\premiumaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|D:\\oop project\\Bank-OOP-project\\p1\\accountexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\accountexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvestmentAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\InvestmentAccount.cs",
-              "RelativeDocumentMoniker": "p1\\InvestmentAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\InvestmentAccount.cs",
-              "RelativeToolTip": "p1\\InvestmentAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:57:00.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PremiumAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\PremiumAccount.cs",
-              "RelativeDocumentMoniker": "p1\\PremiumAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\PremiumAccount.cs",
-              "RelativeToolTip": "p1\\PremiumAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:56:43.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AbstractAccount.cs",
               "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\AbstractAccount.cs",
               "RelativeDocumentMoniker": "p1\\AbstractAccount.cs",
               "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\AbstractAccount.cs",
               "RelativeToolTip": "p1\\AbstractAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:20:08.447Z",
+              "WhenOpened": "2026-03-29T21:15:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
+              "RelativeDocumentMoniker": "p1\\BankAccount.cs",
+              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
+              "RelativeToolTip": "p1\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:58:45.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\Bank.cs",
+              "RelativeDocumentMoniker": "p1\\Bank.cs",
+              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Bank.cs",
+              "RelativeToolTip": "p1\\Bank.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAQwAYBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:24:10.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\Client.cs",
+              "RelativeDocumentMoniker": "p1\\Client.cs",
+              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Client.cs",
+              "RelativeToolTip": "p1\\Client.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T19:59:41.928Z",
               "EditorCaption": ""
             },
             {
@@ -87,54 +92,9 @@
               "RelativeDocumentMoniker": "p1\\Program.cs",
               "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Program.cs",
               "RelativeToolTip": "p1\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T16:20:08.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SavingAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\SavingAccount.cs",
-              "RelativeDocumentMoniker": "p1\\SavingAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\SavingAccount.cs",
-              "RelativeToolTip": "p1\\SavingAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:56:34.027Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 95,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountExceptions.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\AccountExceptions.cs",
-              "RelativeDocumentMoniker": "p1\\AccountExceptions.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\AccountExceptions.cs",
-              "RelativeToolTip": "p1\\AccountExceptions.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwCoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:20:08.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
-              "RelativeDocumentMoniker": "p1\\BankAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
-              "RelativeToolTip": "p1\\BankAccount.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAywCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T17:05:08.002Z",
               "EditorCaption": ""
             }
           ]

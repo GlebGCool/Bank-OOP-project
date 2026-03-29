@@ -47,5 +47,11 @@ namespace p1
                 RequestedAmount = requested;
             }
         }
+
+        public class AgeRestrictionException : Exception
+        {
+            public AgeRestrictionException(int age)
+                : base($"Регистрация отклонена: возраст {age} меньше допустимого (18+).") { }
+        }
     }
 }
