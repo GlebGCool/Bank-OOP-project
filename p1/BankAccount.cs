@@ -42,7 +42,7 @@ namespace p1
             _balance -= amount;
         }
         // Проверка операции на валидность
-        private void ValidateOperation(decimal amount)
+        protected void ValidateOperation(decimal amount)
         {
             if (amount <= 0)
                 throw new InvalidAccountOperationException("Сумма должна быть положительной.");
