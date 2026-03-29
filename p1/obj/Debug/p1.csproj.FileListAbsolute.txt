@@ -1,0 +1,22 @@
+D:\kzml prgrmming\oop project\p1\p1\bin\Debug\p1.exe.config
+D:\kzml prgrmming\oop project\p1\p1\bin\Debug\p1.exe
+D:\kzml prgrmming\oop project\p1\p1\bin\Debug\p1.pdb
+D:\kzml prgrmming\oop project\p1\p1\obj\Debug\p1.csproj.AssemblyReference.cache
+D:\kzml prgrmming\oop project\p1\p1\obj\Debug\p1.csproj.CoreCompileInputs.cache
+D:\kzml prgrmming\oop project\p1\p1\obj\Debug\p1.exe
+D:\kzml prgrmming\oop project\p1\p1\obj\Debug\p1.pdb
+D:\kzml prgrmming\oop project\p1\p1\obj\Debug\p1.exe.config
+C:\Users\student\Desktop\p1\p1\bin\Debug\p1.exe.config
+C:\Users\student\Desktop\p1\p1\bin\Debug\p1.exe
+C:\Users\student\Desktop\p1\p1\bin\Debug\p1.pdb
+C:\Users\student\Desktop\p1\p1\obj\Debug\p1.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\p1\p1\obj\Debug\p1.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\p1\p1\obj\Debug\p1.exe
+C:\Users\student\Desktop\p1\p1\obj\Debug\p1.pdb
+D:\oop project\p1\p1\bin\Debug\p1.exe.config
+D:\oop project\p1\p1\bin\Debug\p1.exe
+D:\oop project\p1\p1\bin\Debug\p1.pdb
+D:\oop project\p1\p1\obj\Debug\p1.csproj.AssemblyReference.cache
+D:\oop project\p1\p1\obj\Debug\p1.csproj.CoreCompileInputs.cache
+D:\oop project\p1\p1\obj\Debug\p1.exe
+D:\oop project\p1\p1\obj\Debug\p1.pdb
