@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\oop project\\Bank-OOP-project\\",
+  "WorkspaceRootPath": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|c:\\users\\cinnamura\\desktop\\qwe\\bank-oop-project\\p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|d:\\oop project\\bank-oop-project\\p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\abstractaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{643D8C18-6C61-4207-A02F-BA971D64CB02}|p1\\p1.csproj|solutionrelative:p1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,52 +34,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AbstractAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\AbstractAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\AbstractAccount.cs",
               "RelativeDocumentMoniker": "p1\\AbstractAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\AbstractAccount.cs",
+              "ToolTip": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\AbstractAccount.cs",
               "RelativeToolTip": "p1\\AbstractAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T21:15:04.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\BankAccount.cs",
               "RelativeDocumentMoniker": "p1\\BankAccount.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\BankAccount.cs",
               "RelativeToolTip": "p1\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwBQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:58:45.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bank.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\Bank.cs",
+              "DocumentMoniker": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Bank.cs",
               "RelativeDocumentMoniker": "p1\\Bank.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Bank.cs",
+              "ToolTip": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Bank.cs",
               "RelativeToolTip": "p1\\Bank.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAQwAYBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAkwAoBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:24:10.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Client.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\Client.cs",
+              "DocumentMoniker": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Client.cs",
               "RelativeDocumentMoniker": "p1\\Client.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Client.cs",
+              "ToolTip": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Client.cs",
               "RelativeToolTip": "p1\\Client.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T19:59:41.928Z",
               "EditorCaption": ""
@@ -88,11 +88,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\oop project\\Bank-OOP-project\\p1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Program.cs",
               "RelativeDocumentMoniker": "p1\\Program.cs",
-              "ToolTip": "D:\\oop project\\Bank-OOP-project\\p1\\Program.cs",
+              "ToolTip": "C:\\Users\\Cinnamura\\Desktop\\qwe\\Bank-OOP-project\\p1\\Program.cs",
               "RelativeToolTip": "p1\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwDcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T16:20:08.607Z",
               "EditorCaption": ""

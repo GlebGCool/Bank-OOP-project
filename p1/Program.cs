@@ -41,8 +41,8 @@ namespace p1
 
                 bank.searchAccounts(ivan);
 
-                Console.WriteLine("\n\n--- ТЕСТ: Блокировка за неверный пароль ---");
-                var hater = new Client("Hacker Jack", "wrong_pass", ClientStatus.Active, 30, "jack@hack.com");
+                Console.WriteLine("\n\nТест: Блокировка за неверный пароль");
+                var hater = new Client("Hacker Nigger", "wrong_pass", ClientStatus.Active, 30, "nigger@hack.com");
                 bank.add_client(hater);
 
                 // Трижды пытаемся войти с плохим паролем
@@ -53,10 +53,10 @@ namespace p1
                 // Пробуем совершить операцию после блокировки
                 bank.BankWithdraw(hater);
 
-                Console.WriteLine("\n\n--- ТЕСТ: Несовершеннолетний клиент ---");
+                Console.WriteLine("\n\nТест: Несовершеннолетний клиент");
                 try
                 {
-                    var kid = new Client("Baby Shark", "999", ClientStatus.Active, 10, "kid@toy.com");
+                    var kid = new Client("3.14zduk", "999", ClientStatus.Active, 10, "cyber@punk.com");
                     bank.add_client(kid);
                 }
                 catch (Exception ex)
@@ -64,10 +64,10 @@ namespace p1
                     Console.WriteLine($"Успешная проверка возраста: {ex.Message}");
                 }
 
-                Console.WriteLine("\n\n--- ТЕСТ: Подозрительная операция (>1000) ---");
+                Console.WriteLine("\n\nТест: Подозрительная операция (>1000)");
                 bank.BankWithdraw(ivan);
 
-                Console.WriteLine("\n\n--- ТЕСТ: Замороженный счет ---");
+                Console.WriteLine("\n\nТест: Замороженный счет");
                 bank.authenticateClient(ivan, "12345");
                 bank.freeze_account(ivan); // Замораживаем один из счетов
 

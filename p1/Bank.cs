@@ -30,7 +30,7 @@ namespace p1
             }
             if (client == null) throw new Exception("Клиент не указан");
 
-            // Проверяем, есть ли такой клиент вообще в нашем банке
+            // Проверяем, есть ли такой клиент вообще в банке
             if (!clients.Contains(client))
                 throw new Exception("Этот клиент не зарегистрирован в нашем банке!");
 
@@ -44,7 +44,7 @@ namespace p1
             for (int i = 0; i < client.accounts.Count; i++)
             {
                 var acc = client.accounts[i];
-                // Показываем тип счета, ID и баланс для наглядности
+                // Показываем тип счета, ID и баланс
                 Console.WriteLine($"ID:[{i}] {acc.GetAccountInfo()}");
             }
         }
@@ -103,7 +103,7 @@ namespace p1
                 return;
             }
             searchAccounts(client);
-            Console.Write("\nВыберите номер счета для ЗАМОРОЗКИ: ");
+            Console.Write("\nВыберите номер счета для заморозки: ");
             if (int.TryParse(Console.ReadLine(), out int index))
             {
                 if (index >= 0 && index < client.accounts.Count)
@@ -136,7 +136,7 @@ namespace p1
                 return;
             }
             searchAccounts(client);
-            Console.Write("\nВыберите номер счета для РАЗМОРОЗКИ: ");
+            Console.Write("\nВыберите номер счета для разморозки: ");
             if (int.TryParse(Console.ReadLine(), out int index))
             {
                 if (index >= 0 && index < client.accounts.Count)
@@ -161,14 +161,14 @@ namespace p1
 
         public void BankDeposit(Client client)
         {
-            // 1. ПРОВЕРКА НА БЛОКИРОВКУ (Новое)
+            // Проверка на блокировку
             if (client.Status == ClientStatus.Blocked)
             {
-                Console.WriteLine("ОТКАЗ: Действие невозможно. Клиент заблокирован службой безопасности.");
+                Console.WriteLine("Действие невозможно. Клиент заблокирован службой безопасности.");
                 return;
             }
 
-            // 2. Проверка на вход
+            // Проверка на вход
             if (client.isAuthenticated == false)
             {
                 Console.WriteLine("Ошибка. Перед началом действий с клиентом аутентифицируйтесь.");
@@ -202,25 +202,25 @@ namespace p1
 
         public void BankWithdraw(Client client)
         {
-            // 1. ПРОВЕРКА НА БЛОКИРОВКУ (Новое)
+            // Проверка на блокировку
             if (client.Status == ClientStatus.Blocked)
             {
-                Console.WriteLine("ОТКАЗ: Снятие средств невозможно. Клиент полностью заблокирован.");
+                Console.WriteLine("Снятие средств невозможно. Клиент полностью заблокирован.");
                 return;
             }
 
-            // 2. Проверка аутентификации
+            // Проверка аутентификации
             if (client.isAuthenticated == false)
             {
                 Console.WriteLine("Ошибка. Перед началом действий с клиентом аутентифицируйтесь.");
                 return;
             }
 
-            // 3. Проверка "Ночного времени"
+            // Проверка Ночного времени
             int hour = DateTime.Now.Hour;
             if (hour >= 0 && hour < 5)
             {
-                Console.WriteLine("ОПЕРАЦИЯ ОТКЛОНЕНА: Технический перерыв до 05:00.");
+                Console.WriteLine("Технический перерыв до 05:00.");
                 return;
             }
 
